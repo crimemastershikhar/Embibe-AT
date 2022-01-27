@@ -5,7 +5,6 @@ using UnityEngine;
 public class GameManager : MonoBehaviour
 {
     public List<GameObject> buttonList;
-
     [SerializeField] private int counter = 0;
 
     public void Next()
