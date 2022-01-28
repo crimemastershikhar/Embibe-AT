@@ -7,13 +7,7 @@ public class MCQShape : MonoBehaviour
     Vector3 offset;
     private Vector2 originalPos;
     private bool dragging, correctAns;
-/*    private MCQSlot slotShape;
-    private Vector3 resetPosition;*/
 
-/*    private void Start()
-    {
-        resetPosition = this.transform.localPosition;
-    }*/
     private void Awake()
     {
         originalPos = transform.position;

@@ -23,7 +23,6 @@ public class GameManager : MonoBehaviour
             sceneManager();
         }
     }
-
     public void sceneManager()
     {
         switch (counter)
