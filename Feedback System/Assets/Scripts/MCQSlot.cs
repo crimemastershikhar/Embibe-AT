@@ -22,6 +22,8 @@ public class MCQSlot : MonoBehaviour
         {
             winText.text = "Correct Answer";
             winImage.gameObject.SetActive(true);
+            this.gameObject.SetActive(false);
+            other.gameObject.SetActive(false);
         }
         else
         {
